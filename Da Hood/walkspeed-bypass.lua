@@ -9,4 +9,4 @@ mt.__newindex = newcclosure(function(i, v, c)
     return old(i, v, c);
 end);
 
-game:GetService("Players").LocalPlayer.Character.Humanoid.Walkspeed = 100;
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 100;
