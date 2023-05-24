@@ -4,7 +4,7 @@ old_hookmetamethod = hookmetamethod(game, "__index", function(Self, Key)
         return nil;
     end;
     return old_hookmetamethod(Self, Key);
-end)
+end);
 
 game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 100;
 game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = 100;
