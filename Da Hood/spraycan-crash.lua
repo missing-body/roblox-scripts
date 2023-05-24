@@ -1,3 +1,4 @@
+-- this no longer works seeming da hood patched crashing
 getgenv().SprayCans = 0;
 getgenv().SelectedGroup = nil;
 
