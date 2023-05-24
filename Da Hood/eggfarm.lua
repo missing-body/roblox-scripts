@@ -154,4 +154,4 @@ ServerHop();
 if FoundEggs then
     rconsoleprint("@@LIGHT_CYAN@@");
     rconsoleprint("[-] Current farming stats:\n     Eggs collected: ".. comma_value(Stats[1]) .."\n     Money gained: $".. comma_value(Stats[2]) .." \n     Crates opened: ".. comma_value(Stats[3]) .."\n     Servers hopped: ".. comma_value(Stats[5]) .."\n");
-end
+end;
