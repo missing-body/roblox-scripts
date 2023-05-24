@@ -25,7 +25,7 @@ local FoundEggs = false;
 UserSettings().GameSettings.MasterVolume = 0;
 
 QueueOnTeleport([[
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/missing-body/roblox-scripts/main/Da%20Hood/eggfarm.lua", true))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/missing-body/roblox-scripts/main/Da%20Hood/egg-farm.lua", true))();
 ]])
 
 local Stats = {0, 0, 0, 0};
